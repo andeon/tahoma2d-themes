@@ -279,7 +279,7 @@ QMenuBar::item:pressed {
   border-right: 1 solid #fff;
   color: #fff;
   margin: 0 0 -1 0;
-  padding: 2 8 3 8;
+  padding: 2 10 3 10;
   border-bottom: 2 solid #fff;
   background: qlineargradient(x1:1, y1:0, x2:1, y2:1,
   stop:0.1 #d7d7d7, stop: 1 #7e7e7e);
@@ -2440,8 +2440,8 @@ SpreadsheetViewer {
    Status Bar - Bottom of Main Window
 ----------------------------------------------------------------------------- */
 #StatusBar {
-  background-color: #ebebeb;
-  color: #ff8162;
+  background-color: #DBDBDB;
+  color: #000080;
   border-top: 1px outset #8f8f8f;
 }
 #StatusBar:disabled {
