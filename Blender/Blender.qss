@@ -312,7 +312,6 @@ QMenu {
 }
 QMenu::item {
   border: 0;
-					 
 }
 QMenu::item:selected {
   background-color: #5680C2;
@@ -1438,13 +1437,6 @@ ParamsPage {
 /* -----------------------------------------------------------------------------
    Misc 
 ----------------------------------------------------------------------------- */
-				 
-					
-									
-				   
-													  
-																   
- 
 #MatchLineButton {
   background-color: #494949;
 }
@@ -1610,9 +1602,6 @@ PaletteViewer QToolBar #keyFrameNavigator #KeyTotal {
   background-color: #d57a7a;
   border-color: #d57a7a;
 }
-						  
-								   
- 
 /* -----------------------------------------------------------------------------
    Quick Renamer
 ----------------------------------------------------------------------------- */
@@ -1657,24 +1646,20 @@ QDialog #dialogButtonFrame QPushButton:focus:pressed {
    Preferences
 ----------------------------------------------------------------------------- */
 #PreferencesPopup QListWidget {
-								  
   background-color: #4b4b4b;
   alternate-background-color: #4b4b4b;
   border: 1 solid #070707;
   font-size: 13px;
 }
 #PreferencesPopup QListWidget::item {
-										
   border: 0;
   padding: 3;
 }
 #PreferencesPopup QListWidget::item:hover {
-											  
   background-color: rgba(255, 255, 255, 0.1);
   color: #e6e6e6;
 }
 #PreferencesPopup QListWidget::item:selected {
-												 
   background-color: #5680C2;
   color: #ffffff;
 }
@@ -1714,12 +1699,6 @@ ProjectPopup QLabel {
 #GearButton::menu-indicator {
   image: url("");
 }
-				 
-															
- 
-								 
-			
- 
 #SubfolderButton {
   padding-left: 5px;
   padding-right: 5px;
@@ -1744,10 +1723,10 @@ SchematicViewer {
   qproperty-TextColor: #e6e6e6;
   qproperty-VerticalLineColor: rgba(0, 0, 0, 0.3);
   qproperty-LevelColumnColor: #4C6E4C;
-  qproperty-VectorColumnColor: #7B7B4C;
-  qproperty-ChildColumnColor: #6b4e69;
-  qproperty-FullcolorColumnColor: #657A96;
-  qproperty-FxColumnColor: #5e5645;
+  qproperty-VectorColumnColor: #79304e;
+  qproperty-ChildColumnColor: #2f3e6d;
+  qproperty-FullcolorColumnColor: #527097;
+  qproperty-FxColumnColor: #8a674b;
   qproperty-PaletteColumnColor: #42756e;
   qproperty-MeshColumnColor: #594d75;
   qproperty-ReferenceColumnColor: #303030;
@@ -2062,9 +2041,7 @@ QToolBar#WidePaddingToolBar QToolButton {
   margin-right: 0;
   margin-top: 2;
   padding-right: -1;
-				  
   padding-bottom: -1;
-					
 }
 #ComboViewerPanel Toolbar QToolButton#qt_toolbar_ext_button {
   margin-bottom: 1;
@@ -2263,7 +2240,6 @@ XsheetViewer {
   qproperty-PreviewFrameTextColor: #9fdaff;
   qproperty-CurrentRowBgColor: rgba(86, 128, 194, 0.7);
   qproperty-OnionSkinAreaBgColor: #424242;
-								 
   qproperty-ColumnIconLineColor: #070707;
   qproperty-EmptyColumnHeadColor: #262626;
   qproperty-ColumnHeadPastelizer: rgba(0, 0, 0, 0);
