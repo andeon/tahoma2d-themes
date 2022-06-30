@@ -1068,7 +1068,7 @@ QCheckBox::indicator:indeterminate:hover,
 QGroupBox::indicator:hover,
 QGroupBox::indicator:checked:hover,
 QGroupBox::indicator:indeterminate:hover {
-  background-color: #a0c1dd;
+  background-color: #fbfbfb;
   border-color: #7b7b7b;
 }
 .CheckBox::indicator:checked,
@@ -1748,7 +1748,7 @@ SchematicViewer {
   qproperty-TextColor: #000;
   qproperty-VerticalLineColor: rgba(0, 0, 0, 0.15);
   qproperty-LevelColumnColor: #a1cea1;
-  qproperty-VectorColumnColor: #d3cf9a;
+  qproperty-VectorColumnColor: #d39ab5;
   qproperty-ChildColumnColor: #cca3cc;
   qproperty-FullcolorColumnColor: #b0cbdd;
   qproperty-FxColumnColor: #ceb694;
@@ -2282,7 +2282,7 @@ XsheetViewer {
   qproperty-FoldedColumnLineColor: #7b7b7b;
   qproperty-EmptyCellColor: #e3e3e3;
   qproperty-NotEmptyColumnColor: #ededed;
-  qproperty-SelectedEmptyCellColor: rgba(255, 255, 255, 0.7);
+  qproperty-SelectedEmptyCellColor: rgba(255, 255, 255, 0.9);
   qproperty-PegColor: #dfb081;
   qproperty-TableColor: #cbcbe4;
   qproperty-LevelColumnColor: #a1cea1;
