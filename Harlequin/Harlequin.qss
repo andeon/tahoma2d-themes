@@ -188,7 +188,7 @@ QTabBar::tab:only-one {
 ----------------------------------------------------------------------------- */
 QWidget,
 QTextEdit[readOnly="true"] {
-  background-color: #dbdbdb;
+  background-color: #e1e1e1;
   color: #000;
 }
 QWidget:disabled,
@@ -240,7 +240,7 @@ TPanel {
   padding-right: 0;
 }
 #TopBarTabContainer {
-  background-color: #DBDBDB;
+  background-color: #e1e1e1;
   margin-bottom: 1;
 }
 #StackedMenuBar {
@@ -253,8 +253,8 @@ QMenuBar {
   border: 0;
 }
 QMenuBar::item {
-  background-color: #DBDBDB;
-  border-left: 1 solid #DBDBDB;
+  background-color: #e1e1e1;
+  border-left: 1 solid #e1e1e1;
   margin: 0;
   padding: 3 5 3 5;
 }
