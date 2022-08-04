@@ -7,7 +7,7 @@ Installation
 ------------
 *Recommended* - Please download the stable version at https://github.com/andeon/tahoma2d-themes/releases
 
-Or try the latest code
+Or try the latest coded
 
 1. Choose the Download ZIP option from the Code pull-down menu
 2. Unzip the theme folder to your tahomastuff directory: config/qss
