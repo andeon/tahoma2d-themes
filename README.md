@@ -5,7 +5,7 @@ This is a repository where I'll dump Tahoma2d themes. For the Opentoonz version 
 
 Installation
 ------------
-*Recommended* - Please download the stable version at https://github.com/andeon/tahoma2d-themes/releases
+*Recommended* - Please download the latest stable version at https://github.com/andeon/tahoma2d-themes/releases
 
 Or try the latest coded
 
