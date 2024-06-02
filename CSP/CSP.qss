@@ -848,6 +848,7 @@ QPushButton,
 #CustomPanelButton,
 .ComboBox,
 #enableBlankFrameButton,
+#ColumnLockButton,
 QComboBox {
   background-color: #85868a;
   border-color: #696a6e;
@@ -863,7 +864,8 @@ QPushButton:hover,
 #CustomPanelButton:hover,
 #ViewerFpsSlider::sub-line:horizontal:hover,
 #ViewerFpsSlider::add-line:horizontal:hover,
-#enableBlankFrameButton:hover {
+#enableBlankFrameButton:hover,
+#ColumnLockButton:hover {
   background-color: #929397;
   border-color: #696a6e;
   color: #f3f3f3;
@@ -873,7 +875,8 @@ QPushButton:pressed,
 #CustomPanelButton:pressed,
 #ViewerFpsSlider::sub-line:horizontal:pressed,
 #ViewerFpsSlider::add-line:horizontal:pressed,
-#enableBlankFrameButton:pressed {
+#enableBlankFrameButton:pressed,
+#ColumnLockButton:pressed {
   background-color: #4e4e51;
   border-color: #49494c;
   color: #f3f3f3;
@@ -881,7 +884,8 @@ QPushButton:pressed,
 .Button:checked,
 QPushButton:checked,
 #CustomPanelButton:checked,
-#enableBlankFrameButton:checked {
+#enableBlankFrameButton:checked,
+#ColumnLockButton:checked {
   background-color: #4e4e51;
   border-color: #49494c;
   color: #f3f3f3;
@@ -889,14 +893,16 @@ QPushButton:checked,
 .Button:checked:hover,
 QPushButton:checked:hover,
 #CustomPanelButton:checked:hover,
-#enableBlankFrameButton:checked:hover {
+#enableBlankFrameButton:checked:hover,
+#ColumnLockButton:checked:hover {
   background-color: #626266;
   border-color: #555659;
 }
 .Button:checked:hover:pressed,
 QPushButton:checked:hover:pressed,
 #CustomPanelButton:checked:hover:pressed,
-#enableBlankFrameButton:checked:hover:pressed {
+#enableBlankFrameButton:checked:hover:pressed,
+#ColumnLockButton:checked:hover:pressed {
   background: #555659;
 }
 .Button:disabled,
@@ -906,6 +912,7 @@ QPushButton:disabled,
 #ViewerFpsSlider::sub-line:horizontal:disabled,
 #ViewerFpsSlider::add-line:horizontal:disabled,
 #enableBlankFrameButton:disabled,
+#ColumnLockButton:disabled,
 QComboBox:disabled {
   background-color: #75777b;
   border-color: #696a6e;
@@ -2236,6 +2243,15 @@ Ruler {
 }
 #enableBlankFrameButton:checked {
   border-width: 2px;
+}
+#ColumnLockButton {
+  border-radius: 0;
+  background-color: transparent;
+  border-color: transparent;
+}
+#ColumnLockButton:checked {
+  background-color: transparent;
+  border-color: transparent;
 }
 /* -----------------------------------------------------------------------------
    XSheet Viewer
